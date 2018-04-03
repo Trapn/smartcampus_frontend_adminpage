@@ -34,7 +34,7 @@ class Schedule extends Component {
         const locations = {
           name: this.state.name,
           roomnumber: this.state.roomnumber,
-          description: this.state.roomnumber
+          description: this.state.description
         }
         let uri = 'https://projectwerk2.herokuapp.com/api/locations';
         axios.post(uri, locations).then((response) => {
