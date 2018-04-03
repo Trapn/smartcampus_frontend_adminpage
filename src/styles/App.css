@@ -1,0 +1,28 @@
+.heading {
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.navbar {
+    z-index: 1000;
+}
+
+.home_pg {
+    background: url("../img/bg.png") left top fixed no-repeat;
+    background-size: 100%;
+    min-width: 1024px;
+    min-height: 720px;
+}
+
+.box {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.chrt {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+}
